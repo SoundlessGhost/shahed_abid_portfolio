@@ -1,9 +1,11 @@
 "use client";
+
+import Link from "next/link";
+import MaxWidthWrapper from "./MaxWidthWrapper";
+
+import { motion } from "framer-motion";
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { TbBrandGithubFilled } from "react-icons/tb";
-import MaxWidthWrapper from "./MaxWidthWrapper";
-import Link from "next/link";
-import { motion } from "framer-motion";
 
 const Footer = () => {
   return (

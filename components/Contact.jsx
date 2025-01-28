@@ -1,12 +1,12 @@
 "use client";
+import toast from "react-hot-toast";
+import emailjs from "@emailjs/browser";
+
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { BsFillSendFill } from "react-icons/bs";
-
-import toast from "react-hot-toast";
-import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const {
@@ -32,9 +32,8 @@ const Contact = () => {
     emailjs
       .send(ServiceId, TemplateId, TemplateParams, publicKey)
       .then((res) => {
-        console.log("EmailJS Response:", res);
         if (res.text === "OK") {
-          toast.success("Email sent successfully");
+          toast.success("Email sent");
         } else {
           toast.error("Something went wrong");
         }

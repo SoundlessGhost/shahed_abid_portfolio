@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
+import { Button } from "./ui/button";
 import { motion } from "framer-motion";
 import { projects } from "@/lib/projectsData";
-import { Button } from "./ui/button";
 
 const ProjectData = () => {
   return (

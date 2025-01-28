@@ -6,11 +6,11 @@ import { Separator } from "@/components/ui/separator";
 import React from "react";
 import About from "@/components/About";
 import Header from "@/components/Header";
-import Projects from "@/components/Projects";
-import HomeContent from "@/components/HomeContent";
-import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import Projects from "@/components/Projects";
+import Education from "@/components/Education";
+import HomeContent from "@/components/HomeContent";
 
 export default function Home() {
   return (
@@ -39,7 +39,7 @@ export default function Home() {
         whileInView={{ x: 0, opacity: 1 }}
         initial={{ x: -100, opacity: 0 }}
         transition={{ duration: 2, delay: 0.5 }}
-        className="font-bold text-center text-6xl lg:-mt-20 font relative text-white "
+        className="font-bold text-center text-6xl lg:-mt-20 mt-20  font relative text-white "
       >
         Projects
         <Separator className="w-20 border-[#00abf0] mx-auto my-4 border-t-4 rounded-full" />
