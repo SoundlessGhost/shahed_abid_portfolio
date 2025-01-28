@@ -26,7 +26,7 @@ export default function Home() {
           transition={{ duration: 2, delay: 0.5 }}
         >
           <img
-            className="h-[600] lg:mt-4 -mt-96 w-[700] rounded-full object-cover bg-transparent"
+            className="h-[600px] lg:mt-4 -mt-96 w-[700px] rounded-full object-cover bg-transparent"
             src="/sha.png"
             alt=""
           />
