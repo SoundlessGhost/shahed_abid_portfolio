@@ -56,7 +56,7 @@ const Contact = () => {
       >
         <img
           className="lg:w-[450px] md:w-[100%] mb-4 mr-20 rounded-xl lg:h-[400px] md:h-[600px]"
-          src={"/sent.png"}
+          src={"/Sent.png"}
           alt="projects images"
         />
       </motion.div>
