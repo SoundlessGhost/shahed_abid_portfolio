@@ -48,8 +48,6 @@ html {
   width: 80%;
   height: 80%;
   position: absolute;
-  top: 50;
-  left: 10;
   border-radius: 50%;
   border-top: 0.2rem solid gray;
   border-bottom: 0.2rem solid gray;

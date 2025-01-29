@@ -14,7 +14,7 @@ const About = () => {
         className="about-img"
       >
         <img
-          className="w-[150px] border-4  h-[150px] rounded-full mt-[50px] -ml-[30px] object-cover"
+          className="w-[150px] border-4  h-[150px] rounded-full  object-cover"
           src="/shahed.jpg"
           alt=""
         />
