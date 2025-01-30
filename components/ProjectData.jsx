@@ -51,7 +51,10 @@ const ProjectData = () => {
               and deliver educational content with ease.
             </p>
 
-            <Link href={"https://lms2247.vercel.app/"} target="_blank">
+            <Link
+              href={"https://pleasure-things2247.vercel.app/"}
+              target="_blank"
+            >
               <Button variant="outline" className="mt-4 text-2xl py-6 px-8">
                 Live Site
               </Button>
