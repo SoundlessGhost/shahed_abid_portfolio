@@ -9,7 +9,7 @@ const HomeContent = () => {
   return (
     <div
       id="#home"
-      className="font text-white overflow-hidden mt-20 lg:flex items-center justify-between block mb-20"
+      className="font text-white overflow-hidden mt-10 lg:flex items-center justify-between block mb-20"
     >
       <div className="h-[100vh] flex items-center py-0 px-8 max-w-[800px] ">
         <section className="Home-Content">
@@ -122,10 +122,10 @@ const HomeContent = () => {
             </motion.div>
             <button
               type="submit"
-              className="font-bold py-2 ml-6 text-[17px] text-black px-4 flex items-center rounded bg-[#2ca8ea] transition"
+              className="font-bold py-2 ml-6 text-[17px] px-4 flex items-center rounded bg-[#2ca8ea] transition"
             >
-              <FaCloudDownloadAlt size={16} className="mr-1" />
-              <a download href="/resumes/Shahed_Abid.pdf">
+              <FaCloudDownloadAlt size={20} className="mr-1" />
+              <a download className="text" href="/resumes/Shahed_Abid.pdf">
                 Download Resume
               </a>
             </button>

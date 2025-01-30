@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.text:hover {
+  color: white !important;
+}
+
 .font {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -81,11 +85,9 @@ html {
   top: 0;
 }
 
-
 .button a:hover {
   color: white;
 }
-
 
 /* HomeLink */
 

@@ -25,7 +25,7 @@ const About = () => {
         whileInView={{ y: 0, opacity: 1 }}
         initial={{ y: 100, opacity: 0 }}
         transition={{ duration: 2, delay: 0.5 }}
-        className="text-start mx-20"
+        className="text-start mx-10"
       >
         <h3 className="text-2xl text mb-6 title-width">So, Who Am I?</h3>
         <p>
